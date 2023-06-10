@@ -1,30 +1,41 @@
-
 package lab8p1_luishenriquez;
 
-
 public class Libro {
-        String titulo;
-        String escritor;
-        int publicacion;
-        
-        public Libro(String titulo, String escritor, int publicacion) {
+
+    String titulo;
+    String escritor;
+    int publicacion;
+
+    public Libro(String titulo, String escritor, int publicacion) {
         this.titulo = titulo;
         this.escritor = escritor;
         this.publicacion = publicacion;
     }
-        
-        
-        public String titulo(){
+
+    public String titulo() {
         return titulo;
-        }
-        
-        public String escritor(){
-        return escritor;    
-        }
-        
-        public int publicacion(){
-        return publicacion;    
-        }
-        
-        
+    }
+
+    public String escritor() {
+        return escritor;
+    }
+
+    public int publicacion() {
+        return publicacion;
+    }
+
+    public String retitulo(String titulo) {
+        return titulo;
+    }
+
+    public String reescritor(String escritor) {
+        return escritor;
+    }
+
+    public int republicacion(int publicacion) {
+        return publicacion;
+    }
+
+    
+
 }
